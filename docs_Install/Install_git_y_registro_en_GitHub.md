@@ -1,27 +1,55 @@
 # INSTALACION DE GIT EN UBUNTU  Y CREACIÓN DE UNA CUENTA EN GITHUB
-## Instalando GIT como un entorno de desarrollo
+# Instalando GIT como entorno de desarrollo
+
+## Instalación
+
+Ejecuta el siguiente comando:
+
 ```sh
 apt-get install git
- ```
- ##### NOTA: Si no permite intalar, poner el comando "sudo" en modo privilegiado.
+```
+
+**Nota:** Si requieres permisos de administrador, utiliza `sudo`:
+
 ```sh
 sudo apt install git
- ```
-## Verificamos si se instalo viendo la version
+```
+
+## Verificar la instalación
+
+Comprueba la versión instalada:
+
 ```sh
 git --version
 ```
-Si todo esta correcto nos mostrara la version del git instalado en el equipo
 
-## Una vez instalado GIT, crear un usario en GitHub
+Deberías ver la versión de Git instalada en tu sistema.
 
-Dirigirse a la pagina https://github.com
+---
 
-## Registrarce con un correo electrónico
+# Creación de una cuenta en GitHub
 
-![](https://github.com/DiegooGutierrez123321/PVT_install/blob/main/Screenshot_Install/Captura%20de%20pantalla%20de%202021-04-13%2009-34-36.png?raw=true)
+## Acceder a GitHub
 
-## Crear una cuenta con los siguientes requisitos
+Dirígete a [https://github.com](https://github.com)
 
-![](https://github.com/DiegooGutierrez123321/PVT_install/blob/main/Screenshot_Install/Captura%20de%20pantalla%20de%202021-04-13%2009-44-48.png?raw=true)
+## Registrarse con correo electrónico
+
+![](../Screenshot_Install/input_create_account.png)
+
+## Completar datos de registro
+
+![](../Screenshot_Install/sing_up_for_github.png)
+
+## Confirmar correo electrónico
+
+GitHub enviará un código de verificación a tu correo. Ingresa el código para completar el registro.
+
+![](../Screenshot_Install/confirm_email.png)
+
+## Acceder a tu cuenta
+
+¡Listo! Ahora puedes iniciar sesión con tu usuario y contraseña.
+
+![](../Screenshot_Install/inicio_sesion.png)
 
