@@ -1,50 +1,59 @@
+# GENERAR CLAVES SSH
 
 
-# COMO GENERAR SSH
+## ¿Qué es SSH?
 
-![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/imagenes/conexion-ssh-600x240.gif)
+SSH es un protocolo seguro que te permite conectarte a servidores (como GitHub) sin escribir tu contraseña cada vez. Usa un par de claves: una **privada** (confidencial) y otra **pública** (que compartes).
 
+## Pasos para generar claves SSH
 
-Vamos a crear un par de llaves rsa una publica y una privada para que puedan conectarse mediante ssh a un servidor sin tener que estar escribiendo continuamente la clave.
+### 1) Generar el par de claves
 
--  Descargar el ssh server
-  
-    ### sudo apt install openssh-server
+En tu terminal, ejecuta:
 
--  El comando cd .ssh , cambiará tu ubicación actual a «ssh».
-  
-    ### cd .ssh/
+```sh
+ssh-keygen -t ed25519 -C "tu_correo@gmail.com"
+```
 
-- Este comando se usa para listar todos los archivos y directorios.
-  
-    ### ls
+Reemplaza `tu_correo@gmail.com` con tu correo real. Presiona **Enter** en todas las preguntas para usar los valores por defecto.
 
-- Por medio de este comando podemos crear un par de claves publica y privada 
-   
-    ### ssh-keygen
+### 2) Verificar que se generaron
 
-  por defecto se guarda en un archivo id_rsa pero podemos usar otro archivo si queremos le damos enter y despues escribir una contraseña que se podria dejar en blanco pero es muy recomendable para que se cifre el contenido de la clave privida.
+```sh
+ls ~/.ssh/
+```
 
-- Volvemos a colocar el comando ls 
+Deberías ver dos archivos:
+- `id_ed25519` (clave privada - NUNCA la compartas)
+- `id_ed25519.pub` (clave pública - esto sí lo usarás)
 
-   ### ls
+### 3) Copiar tu clave pública
 
-  Donde nos genero dos archivos uno llamado id_rsa y otro id_rsa.pub en el archivo punto pub es el que se va a usar para subir al servidor
+```sh
+cat ~/.ssh/id_ed25519.pub
+```
 
-- Por medio de este comando podemos examinar el contenido de este archivo
+**Copia TODA la salida** (desde `ssh-ed25519` hasta tu correo).
 
-    ### cat id_rsa.pub
+## Agregar la clave pública a GitHub
 
-  Lo que contiene es un conjunto de caracteres que es básicamente nuetra clave pública y tambien la palabra ssh y el nombre de usuario en el ordenador
+### 1) Ve a GitHub
 
-- Luego enviar a la máquina en la que este iniciando sesión en este caso usaremos GITHUB
+- Abre https://github.com/settings/ssh/new
 
-    ### GITHUB 
+### 2) Agrega la clave SSH
 
-- Darle click en el usuario 
-- Buscar settings y darle click
-- En la parte izquierda darle click en SSH and GPG keys
-- Darle click en New SSH key 
-- Te mostrara una nueva ventana 
-- En la parte title(titulo) es darle un nombre significativo
-- En la parte key (llave) es pegar el contenido del archivo de la clave pública tal cual lo pegamos
+- **Title**: Dale un nombre (ej: "Mi SSH")
+- **Key**: Pega lo que copiaste en el paso anterior
+- Haz clic en **"Add SSH key"**
+
+### 3) Verifica que funciona
+
+En tu terminal:
+
+```sh
+ssh -T git@github.com
+```
+
+Si sale algo como "Hi! You've successfully authenticated...", ¡está listo!
+
