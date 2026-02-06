@@ -1,70 +1,50 @@
-![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/1c8852654b45564ce024a199de3998fa.jpg)
+# Guía de Instalación de Ubuntu 24.04 LTS
 
-# Guia de instalacion de Ubuntu 18.04
+![Ubuntu Installation](../Screenshot_Install/ubuntu_image.jpeg)
 
-Requisitos minimos del sistema para Ubuntu 
+## Requisitos Mínimos del Sistema
 
-- RAM de 2 GB
-- Procesador dual core con frecuencia de  2 GHZ
-- Disco duro desde 25 GB
-- Unidad  de DVD o un puerto de USB 
-- Acceso a internet
+- **Arquitectura:** Intel o AMD 64-bit
+- **RAM:** 4 GB (recomendado) / 2 GB (mínimo)
+- **Procesador:** Dual core a 2 GHz o superior
+- **Almacenamiento:** 25 GB mínimo
+- **Medio de instalación:** DVD o USB
+- **Conexión a internet:** Recomendada para actualizaciones
 
-# Instalación
+## Pasos de Instalación
 
-- Paso 1: Descargar el archivo ISO Ubuntu actualizado o utilizar CD 
+### 1. Descargar la Imagen ISO
 
-![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/skDUWAAa_400x400.jpg)
+Descarga Ubuntu 24.04 LTS desde el sitio oficial.
 
-- Paso 2: Arranque desde USB/DVD 
+![Descarga](../screenshot_Install/screenshots_install_ubuntu/descarga.png)
 
-![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/usb-booteable.jpg)
+### 2. Crear Medio de Arranque USB
 
-- Paso 3: Una vez iniciemos nuestro medio , nos saldrá el splash de Ubuntu.
-  
-![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/D186q.png)
+- **Windows:** Usa Rufus para crear un USB booteable
+- **macOS:** Usa Balena Etcher o UNetbootin
 
-- Paso 4: Nos preguntara que si queremos probar o instalar ubuntu ,seleccionamos nuestro idioma y damos click en instalar
+### 3. Arrancar desde USB/DVD
 
-![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/ubuntu_install1.png)
+![USB Booteable](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/usb-booteable.jpg)
 
-- Paso 5: Después seleccionamos el idioma del teclado del sistema.
+Inserta el USB/DVD, enciende la computadora y selecciona "Try or install Ubuntu".
 
-![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/2-instalacion_ubuntu-seleccion_de_idioma_de_teclado.png)
+### 4-12. Proceso de Instalación
 
-- Paso 6: Definimos el tipo de instalación y el software de terceros a instalar 
+Sigue estos pasos en orden:
 
-![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/3-instalacion_ubuntu-definicion-tipo-instalacion.png)
+1. Selecciona el idioma del sistema
+2. Configura el teclado
+3. Elige opciones de instalación
+4. Crea tu cuenta de usuario
+5. Revisa y confirma los datos
+6. Inicia la instalación y reinicia
 
-  ### tener en cuenta:
-    Marcar la casilla “Instalar programas de terceros…» es aconsejable en todos los casos.
-    Marcar la casilla «Descargar actualizaciones al instalar Ubuntu» es recomendable solo si ha pasado poco tiempo desde que salió la imagen de instalación y tienes una buena conexión a Internet.
+![Instalación](../screenshot_Install/screenshots_install_ubuntu/1_install_ubuntu.png)
 
-- Paso 7: Seleccionamos donde vamos a instalar Ubuntu, por defecto borrara todo lo que hay en el disco e instalará un sistema limpio. Si elegimos la ultima opción nos permite seleccionar la partición donde queremos instalarlo, esto es un poco avanzado.
+¡Ubuntu 24.04 LTS está listo!
 
-![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/4-instalacion-ubuntu-definicion-de-disco-particion.png)
+![Listo](../screenshot_Install/screenshots_install_ubuntu/14_install_ubuntu.png)
 
-- Paso 8: Damos aceptar o continuar para que empiece la instalcion 
-
-![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/5-instalacion-ubuntu-definicion-de-disco-particion_2.png)
-
-- Paso 9: Seleccionamos nuestro pais 
-
-![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/Captura-de-pantalla-de-2017-10-15-17-53-16.png)
-
-- Paso 10: Configuramos nuetro Usuario y Contraseña 
-
-![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/7-instalacion-ubuntu-datos_de_usuario.png)
-
-- Paso 11: Y empezara la instalacion 
-
-![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/8-instalacion-ubuntu-proceso-de-instalacion.png)
-
-- Paso 12: Al finalizar nos pedira Reiniciar y aceptar 
-
-![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/9-instalacion-ubuntu-fin-de-instalacion.png)
-
-- Paso 13: Y una vez reiniciada y entre al  sistema esto es lo que nos quedará. 
-
-
-![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/ubuntu-gnome.jpg)
+ 
