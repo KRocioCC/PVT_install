@@ -3,7 +3,8 @@
 
 ## ¿Qué es SSH?
 
-SSH es un protocolo seguro que te permite conectarte a servidores (como GitHub) sin escribir tu contraseña cada vez. Usa un par de claves: una **privada** (confidencial) y otra **pública** (que compartes).
+SSH es un protocolo seguro que Permite conectarte a servidores (como GitHub) sin escribir tu contraseña cada vez. Usa un par de claves: una privada (confidencial) y otra pública (que compartes).
+
 
 ## Pasos para generar claves SSH
 

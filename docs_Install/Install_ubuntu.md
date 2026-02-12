@@ -25,9 +25,9 @@
 
 - Paso 3: Arranque desde USB/DVD
 
-![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/usb-booteable.jpg)
+  Con la computadora apagada, inserta el USB o DVD de arranque. Enciende la computadora y aparecerá la terminal de GNU. Presiona en "Try or install Ubuntu"
 
-- Paso 4: Con la computadora apagada, inserta el USB o DVD de arranque. Enciende la computadora y aparecerá la terminal de GNU presionar en "Try or install Ubuntu"
+![](https://raw.githubusercontent.com/IvetteCh/PVT_install/main/screenshot_Install/usb-booteable.jpg)
 
 ![](../screenshot_Install/screnshots_install_ubuntu/1_install_ubuntu.png)
 
@@ -37,36 +37,36 @@ Se iniciara Ubuntu
 
 
 
-- Paso 5: Después seleccionamos el idioma del sistema.
+- Paso 4: Después seleccionamos el idioma del sistema.
 
 ![](../screenshot_Install/screnshots_install_ubuntu/3_install_ubuntu.png)
 
 
-- Paso 6: Presiona "siguiente" 
+- Paso 5: Presiona "siguiente" 
 
 ![](../screenshot_Install/screnshots_install_ubuntu/5_install_ubuntu.png)
 
-- Paso 7: Elegimos el idioma del teclado. 
+- Paso 6: Elegimos el idioma del teclado. 
 
 ![](../screenshot_Install/screnshots_install_ubuntu/7_install_ubuntu.png)
 
-- Paso 8: Presiona en "instalar Ubuntu"
+- Paso 7: Presiona en "instalar Ubuntu"
 
 ![](../screenshot_Install/screnshots_install_ubuntu/8_install_ubuntu.png)
 
-- Paso 9: Presionamos en siguiente
+- Paso 8: Presionamos en siguiente
 
 ![](../screenshot_Install/screnshots_install_ubuntu/10_install_ubuntu.png)
 
-- Paso 10: Elegimos como instalar Ubuntu
+- Paso 9: Elegimos como instalar Ubuntu
 
 ![](../screenshot_Install/screnshots_install_ubuntu/11_install_ubuntu.png)
 
-- Paso 11: Crea tu cuenta
+- Paso 10: Crea tu cuenta
 
 ![](../screenshot_Install/screnshots_install_ubuntu/12_install_ubuntu.png)
 
-- Paso 12: Revisa la pantalla de confirmacion de datos de la instalacion. Presiona **instalar** y reinicia la computadora.
+- Paso 11: Revisa la pantalla de confirmacion de datos de la instalacion. Presiona **instalar** y reinicia la computadora.
 
 ![](../screenshot_Install/screnshots_install_ubuntu/13_install_ubuntu.png)
 
